@@ -32,7 +32,7 @@ foreach ($this->person as $key => $val) {
   }
 ```
 
-2. count how many people are killed by the dark witch each year
+2. count how many people are killed by the dark witch each year.
 ```php
 for ($i=0; $i <= max($born); $i++) { 
   $kills[] = $old;
@@ -47,7 +47,7 @@ for ($i=0; $i <= max($born); $i++) {
 }
 ```
 
-3. counting the average person killed by the dark witch each year
+3. counting the average person killed by the dark witch each year.
 ```php
 array_sum($sum_kills) / count($this->person);
 ```
